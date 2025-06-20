@@ -3,8 +3,10 @@ id: tklhandwire
 name: tklhandwire
 type: shield
 url:  
-requires: [pro_micro]
+requires:
+  - i2c_oled
 features:
+  - display
   - keys
 siblings:
   - tklhandwire_left
