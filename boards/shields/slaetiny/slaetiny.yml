@@ -1,0 +1,11 @@
+file_format: "1"
+id: slaetiny
+name: slaetiny
+type: shield
+url:  
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - slaetiny_left
+  - slaetiny_right
