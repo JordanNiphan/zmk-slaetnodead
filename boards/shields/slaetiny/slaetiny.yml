@@ -3,8 +3,10 @@ id: slaetiny
 name: slaetiny
 type: shield
 url:  
-requires: [pro_micro]
+requires:
+  - i2c_oled
 features:
+  - display
   - keys
 siblings:
   - slaetiny_left
