@@ -116,28 +116,6 @@
 
 };
 
-/ {
-    aliases {
-        led-red = &led0;
-        led-green = &led1;
-        led-blue = &led2;
-    };
-
-    leds {
-        compatible = "gpio-leds";
-        status = "okay";
-        led0: led_0 {
-            gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;  // red LED
-        };
-        led1: led_1 {
-            gpios = <&pro_micro 11 GPIO_ACTIVE_LOW>;  // green LED
-        };
-        led2: led_2 {
-            gpios = <&pro_micro 12 GPIO_ACTIVE_LOW>;  // blue LED
-        };
-    };
-};
-
 /{
         keymap {
                 compatible = "zmk,keymap";
