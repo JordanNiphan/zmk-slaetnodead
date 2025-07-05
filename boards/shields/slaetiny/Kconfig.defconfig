@@ -1,7 +1,7 @@
 if SHIELD_SLAETINY_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "SLAETINY"
+    default "SlaeTiny"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
